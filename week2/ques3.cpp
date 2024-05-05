@@ -8,7 +8,12 @@ Key Learnings points from this question are
 be 1e9 and thus we use our range to be [1,1e9]
 
 2) if we do mid*mid <= x then it can go overflow as 1e18 * 1e18 will exceed the
-range of long long [-1e18,1e18]
+range of long long [-1e18,1e18] that is why we use mid <= x/mid which saves us
+from the overflow
+
+3) The library function sqrt(x) does not gives accurate results
+
+4) Time complexity of finding square root of n is log(n)
 
 */
 
