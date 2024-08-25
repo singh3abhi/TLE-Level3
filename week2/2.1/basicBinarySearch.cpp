@@ -5,6 +5,9 @@ using namespace std;
 Find number of elements in the range of l to r in the array
 example - Number of elements between 4 & 12
 ans -> 6 => {3,5,6,7,8,10,11}
+
+
+<--END-->
 */
 
 int solve(int x, vector<int>& arr) {
